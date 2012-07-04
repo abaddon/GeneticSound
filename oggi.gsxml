@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GeneticSoundLayout.dtd>
+
+<layout>
+  <category type="jgap">
+    <object name="fitnessValueAccetable">0.9</object>
+    <object name="numOttave">1.0</object>
+    <object name="sizeChromosome">20.0</object>
+    <object name="numPopulation">20.0</object>
+    <object name="preservFitTestIndividual">0.0</object>
+    <object name="minPitch">60.0</object>
+    <object name="populationSizeConstant">0.0</object>
+  </category>
+  <category type="fitness">
+    <object name="tonalityExternalPitchScale">0.05</object>
+    <object name="peakCountWeight">0.11</object>
+    <object name="tonalityExternalScalePitchWeight">0.11</object>
+    <object name="geometricJumpRecoverWeight">0.11</object>
+    <object name="tonalitaNota">0.0</object>
+    <object name="geometricRibattutaWeight">0.11</object>
+    <object name="peakDistributionWeight">0.11</object>
+    <object name="jumpWeight">0.11</object>
+    <object name="fitnessGeometricWeight">1.0</object>
+    <object name="fitnessTonalityWeight">1.0</object>
+    <object name="frequencyPitchDistributionWeight">0.11</object>
+    <object name="jumpMax">4.0</object>
+    <object name="estimatoreJump">0.0</object>
+    <object name="tonalitaScala">0.0</object>
+    <object name="tonalityScalePitchWeight">0.11</object>
+    <object name="jumpDistance">3.0</object>
+    <object name="jumpDistanceWeight">0.11</object>
+    <object name="tonalityPitchWeight">0.11</object>
+    <object name="jumpDirectionWeight">0.11</object>
+    <object name="peakNumber">3.0</object>
+    <object name="fitnessFrequencyWeight">0.5</object>
+  </category>
+  <category type="function">
+    <object name="NoteExternalScalePitchMalus1">0.02</object>
+    <object name="GeometricjumpCountReference1">0.05</object>
+    <object name="GeometricjumpCountWeight2">0.1</object>
+    <object name="GeometricjumpCountMalus">0.0</object>
+    <object name="GeometricjumpDistanceWeight">5.0</object>
+    <object name="GeometricRibattuteWeight1">0.6</object>
+    <object name="NoteScalePitchMalus3">0.5</object>
+    <object name="GeometricjumpCountReference2">0.1</object>
+    <object name="NoteCheckTemplateWeight2">1.0</object>
+    <object name="GeometricjumpCountWeight1">0.1</object>
+    <object name="GeometricJumpDirectionWeight">10.0</object>
+    <object name="FrequencyPitchDistributionWeight">0.8</object>
+    <object name="NoteExternalScalePitchMalus2">0.5</object>
+    <object name="GeometricPeakCountWeight">10.0</object>
+    <object name="GeometricJumpRecoverWeight">0.2</object>
+    <object name="NoteCheckTemplateWeight1">1.0</object>
+    <object name="NoteScalePitchMalus1">0.03</object>
+    <object name="GeometricRibattuteWeight2">4.0</object>
+    <object name="NoteScalePitchWeight">0.2</object>
+    <object name="NoteScalePitchMalus2">0.1</object>
+    <object name="GeometricjumpCountWeight3">10.0</object>
+  </category>
+</layout>
+

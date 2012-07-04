@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://pc.abaddonhouse.com/dist/" href="launch.jnlp">
+    <information>
+        <title>GeneticSound</title>
+        <vendor>abaddon</vendor>
+        <description>GeneticSound</description>
+        <description kind="short">GeneticSound</description>
+        <homepage href="www.abaddonhouse.com"/>
+        <icon href="logo2.gif" kind="default"/>
+        <icon href="glogo-small.gif" kind="splash"/>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="GeneticSound.jar" main="true" download="eager"/>
+        <jar href="lib/Jama-1.0.2.jar" download="eager"/>
+        <jar href="lib/SoundGenetic.jar" download="eager"/>
+        <jar href="lib/derby.jar" download="eager"/>
+        <jar href="lib/jcommon-1.0.10.jar" download="eager"/>
+        <jar href="lib/jdom.jar" download="eager"/>
+        <jar href="lib/jfreechart-1.0.6.jar" download="eager"/>
+        <jar href="lib/jgap.jar" download="eager"/>
+        <jar href="lib/swing-layout-1.0.3.jar" download="eager"/>
+        <jar href="lib/toplink-essentials-agent.jar" download="eager"/>
+        <jar href="lib/toplink-essentials.jar" download="eager"/>
+    </resources>
+    <application-desc main-class="geneticsound.MainFrame">
+    </application-desc>
+</jnlp>
