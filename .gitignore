@@ -1,12 +1,1 @@
-bin/.svn
-bin/lib/.svn
-build/classes/.svn
-database/.svn
-database/GeneticSoundDB/log/.svn
-database/GeneticSoundDB/seg0/.svn
-database/GeneticSoundDB/.svn
-build
-*.dat
-src/.svn
-src/META-INF/.svn
-.svn
+
