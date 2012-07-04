@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/GeneticSoundLayout.dtd
+
+--><!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE layout SYSTEM "GeneticSoundLayout.dtd">
+
+    <layout>
+    ...
+    </layout>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT layout (category)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT category (object)*>
+<!ATTLIST category
+    type CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT object (#PCDATA)>
+<!ATTLIST object
+    name CDATA #IMPLIED
+  >
